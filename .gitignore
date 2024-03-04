@@ -3,3 +3,24 @@ node_modules
 build
 .DS_Store
 *.db
+
+# git config --global init.defaultBranch main
+# git init
+# git remote add origin git@github.com:elya-le/meet-pup-API-project.git
+# git add .
+# git commit -m 'initial commit'
+# git push origin main
+
+# install dependencies 
+# npm init -y
+# npm install cookie-parser cors csurf dotenv express express-async-errors helmet jsonwebtoken morgan per-env sequelize@6 sequelize-cli@6 pg
+# npm install -D sqlite3 dotenv-cli nodemon
+
+# fetch('/api/test', {
+#     method: "POST",
+#     headers: {
+#         "Content-Type": "application/json",
+#         "XSRF-TOKEN": "koF4b0EU-POLpvXIE4JGIjSgfnsxRVmD5hHs"
+#     },
+#     body: JSON.stringify({ hello: 'world' })
+# }).then(res => res.json()).then(data => console.log(data));
